@@ -7,11 +7,25 @@ export function TitleScreen() {
   const [help, setHelp] = useState(false);
   return (
     <section className="title-screen">
-      <div className="title-copy">
+      <div className="ink-sky" aria-hidden="true">
+        <div className="cloud cloud-a" />
+        <div className="cloud cloud-b" />
+        <div className="cloud cloud-c" />
+        <div className="ridge ridge-far" />
+        <div className="ridge ridge-mid" />
+        <div className="ridge ridge-near" />
+      </div>
+      <div className="title-plaque">
         <p className="eyebrow">原创单机原型 · 与任何商业作品无关</p>
         <h1>五行问途</h1>
         <p className="subtitle">顺着五行，走出一程</p>
-        <div className="stamp">五行</div>
+        <hr className="rule" />
+        <div className="stamp" aria-hidden="true">
+          <span>五</span>
+          <span>行</span>
+          <span>问</span>
+          <span>途</span>
+        </div>
         <p className="lead">
           选一门派，定一行亲和，带灵兽走过青石村、落霞野、忘机林，直到玄霜洞底。回合之间，看五行相生相克。
         </p>

@@ -21,14 +21,7 @@ export function Bar({
 }
 
 export function Portrait({ kind, element }: { kind: string; element: Element }) {
-  return (
-    <div className={`portrait el-${element} kind-${kind}`} aria-hidden="true">
-      <i className="aura" />
-      <i className="body" />
-      <i className="head" />
-      <i className="mark" />
-    </div>
-  );
+  return <div className={`portrait el-${element} kind-${kind}`} aria-hidden="true" />;
 }
 
 export function ElementSeal({

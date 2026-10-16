@@ -30,6 +30,8 @@ const types = {
   ".json": "application/json; charset=utf-8",
   ".map": "application/json; charset=utf-8",
   ".txt": "text/plain; charset=utf-8",
+  ".svg": "image/svg+xml",
+  ".woff2": "font/woff2",
 };
 
 function contentType(file) {
@@ -42,6 +44,8 @@ function resolveFile(urlPath) {
   if (clean === "/styles.css") return path.join(root, "src/styles.css");
   if (clean.startsWith("/js/")) return path.join(root, "dist", clean);
   if (clean.startsWith("/vendor/")) return path.join(root, clean.slice(1));
+  if (clean.startsWith("/fonts/")) return path.join(root, "vendor/fonts", clean.slice("/fonts/".length));
+  if (clean.startsWith("/art/")) return path.join(root, "art", clean.slice("/art/".length));
   return null;
 }
 
