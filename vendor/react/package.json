@@ -1,0 +1,23 @@
+{
+  "name": "react",
+  "version": "18.3.1-wendao",
+  "description": "Small React-compatible runtime (createElement, hooks, jsx-runtime) for this offline prototype. Not affiliated with Meta.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./jsx-runtime": {
+      "types": "./jsx-runtime.d.ts",
+      "default": "./jsx-runtime.js"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./jsx-runtime.d.ts",
+      "default": "./jsx-dev-runtime.js"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "typescript",
+  "version": "6.0.3",
+  "license": "Apache-2.0",
+  "description": "TypeScript compiler vendored so this prototype can typecheck and build without a network registry.",
+  "bin": {
+    "tsc": "./bin/tsc"
+  },
+  "main": "./lib/tsc.js"
+}

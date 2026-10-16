@@ -1,0 +1,21 @@
+{
+  "name": "wendao",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "问道 · 山河试炼：原创单机回合制修仙原型",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "sim": "node scripts/sim.mjs",
+    "typecheck": "node node_modules/typescript/lib/tsc.js --noEmit --pretty false"
+  },
+  "dependencies": {
+    "react": "file:vendor/react",
+    "react-dom": "file:vendor/react-dom"
+  },
+  "devDependencies": {
+    "typescript": "file:vendor/typescript"
+  }
+}

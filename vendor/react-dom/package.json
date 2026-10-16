@@ -1,0 +1,19 @@
+{
+  "name": "react-dom",
+  "version": "18.3.1-wendao",
+  "description": "Small react-dom/client createRoot for this offline prototype.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./client": {
+      "types": "./client.d.ts",
+      "default": "./client.js"
+    }
+  }
+}
