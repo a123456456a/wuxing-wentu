@@ -14,4 +14,6 @@ copyFileSync(path.join(root, "index.html"), path.join(dist, "index.html"));
 copyFileSync(path.join(root, "src/styles.css"), path.join(dist, "styles.css"));
 cpSync(path.join(root, "vendor/react"), path.join(dist, "vendor/react"), { recursive: true });
 cpSync(path.join(root, "vendor/react-dom"), path.join(dist, "vendor/react-dom"), { recursive: true });
+cpSync(path.join(root, "art"), path.join(dist, "art"), { recursive: true });
+cpSync(path.join(root, "vendor/fonts"), path.join(dist, "fonts"), { recursive: true });
 console.log("构建完成：dist/");

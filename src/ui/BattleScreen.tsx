@@ -73,7 +73,7 @@ export function BattleScreen() {
         </div>
         <p className="hint">{targeting ? "点一名角色作为目标。" : mine ? "数字键 1 到 6 对应下方指令。" : ""}</p>
       </header>
-      <div className="field">
+      <div className="battle-field">
         <div className="enemy-row">
           {battle.enemies.map((fighter) => (
             <FighterCard key={fighter.id} fighter={fighter} battleHit={battle.lastHit} selected={targets.has(fighter.id)} onPick={() => { if (targeting) api.battleAct({ type: "target", id: fighter.id }); }} />
