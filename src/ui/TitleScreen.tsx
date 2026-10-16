@@ -9,9 +9,9 @@ export function TitleScreen() {
     <section className="title-screen">
       <div className="title-copy">
         <p className="eyebrow">原创单机原型 · 与任何商业作品无关</p>
-        <h1>问道</h1>
-        <p className="subtitle">山河试炼</p>
-        <div className="stamp">山河</div>
+        <h1>五行问途</h1>
+        <p className="subtitle">顺着五行，走出一程</p>
+        <div className="stamp">五行</div>
         <p className="lead">
           选一门派，定一行亲和，带灵兽走过青石村、落霞野、忘机林，直到玄霜洞底。回合之间，看五行相生相克。
         </p>

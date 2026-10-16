@@ -17,7 +17,7 @@ export function Panels() {
     <div className="sheet" role="dialog">
       <header>
         <strong>
-          {state.panel === "char" ? "人物" : state.panel === "bag" ? "行囊" : state.panel === "pet" ? "灵兽" : state.panel === "shop" ? "铁铺" : state.panel === "lodge" ? "灵兽苑" : state.panel === "map" ? "山河" : "五行"}
+          {state.panel === "char" ? "人物" : state.panel === "bag" ? "行囊" : state.panel === "pet" ? "灵兽" : state.panel === "shop" ? "铁铺" : state.panel === "lodge" ? "灵兽苑" : state.panel === "map" ? "地图" : "五行"}
         </strong>
         <button type="button" onClick={() => api.closePanel()}>关闭</button>
       </header>

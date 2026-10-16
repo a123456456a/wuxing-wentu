@@ -1,7 +1,7 @@
 import type { SaveData } from "./types.js";
 
-export const SAVE_KEY = "wendao-shanhe-save-v1";
-export const MUTE_KEY = "wendao-shanhe-mute";
+export const SAVE_KEY = "wuxing-wentu-save-v1";
+export const MUTE_KEY = "wuxing-wentu-mute";
 
 export function loadSave(): SaveData | null {
   try {

@@ -1,6 +1,6 @@
 {
   "name": "react",
-  "version": "18.3.1-wendao",
+  "version": "18.3.1-wentu",
   "description": "Small React-compatible runtime (createElement, hooks, jsx-runtime) for this offline prototype. Not affiliated with Meta.",
   "license": "MIT",
   "type": "module",

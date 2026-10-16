@@ -17,7 +17,7 @@ export function realmName(level: number): string {
   if (level <= 6) return "凝元";
   if (level <= 8) return "通脉";
   if (level <= 11) return "守一";
-  return "问道";
+  return "通玄";
 }
 
 export function expToNext(level: number): number {

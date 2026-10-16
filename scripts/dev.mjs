@@ -65,7 +65,7 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(port, "0.0.0.0", () => {
-  console.log(`问道已开： http://127.0.0.1:${port}`);
+  console.log(`五行问途已开： http://127.0.0.1:${port}`);
 });
 
 function shutdown() {

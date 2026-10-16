@@ -1,6 +1,6 @@
 {
   "name": "react-dom",
-  "version": "18.3.1-wendao",
+  "version": "18.3.1-wentu",
   "description": "Small react-dom/client createRoot for this offline prototype.",
   "license": "MIT",
   "type": "module",

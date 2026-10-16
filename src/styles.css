@@ -59,10 +59,11 @@ button small { display: block; font-size: 0.75rem; color: #6d5844; }
 .title-copy { color: var(--paper); max-width: 40rem; }
 .eyebrow { letter-spacing: 0.18em; color: var(--gold); font-size: 0.82rem; }
 .title-copy h1 {
-  font-size: clamp(4.5rem, 12vw, 8rem);
-  line-height: 0.9;
+  font-size: clamp(3rem, 8vw, 5.4rem);
+  line-height: 1.05;
   margin: 0.2rem 0;
   font-weight: 700;
+  letter-spacing: 0.06em;
 }
 .subtitle { font-size: 1.4rem; margin-top: 0; color: var(--gold-2); }
 .stamp {
@@ -278,7 +279,7 @@ input {
 @media (max-width: 800px) {
   .create-grid, .hud, .help-layout { grid-template-columns: 1fr; }
   .hud-meta { justify-content: flex-start; }
-  .title-copy h1 { font-size: 4.2rem; }
+  .title-copy h1 { font-size: 2.6rem; }
   .sheet { left: 0.4rem; right: 0.4rem; top: 7.2rem; }
   .stage { display: flex; flex-direction: column; min-height: 0; }
   .world { flex: 1; min-height: 220px; }

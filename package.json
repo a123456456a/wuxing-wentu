@@ -1,9 +1,9 @@
 {
-  "name": "wendao",
+  "name": "wuxing-wentu",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "问道 · 山河试炼：原创单机回合制修仙原型",
+  "description": "五行问途：原创单机回合制修仙原型",
   "scripts": {
     "dev": "node scripts/dev.mjs",
     "build": "node scripts/build.mjs",
